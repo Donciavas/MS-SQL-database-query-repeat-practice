@@ -1,0 +1,10 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT [ASMENSKODAS]
+      ,[VARDAS]
+      ,[PAVARDE]
+      ,[DIRBANUO]
+      ,[GIMIMOMETAI]
+      ,[PAREIGOS]
+      ,[SKYRIUS_PAVADINIMAS]
+      ,[PROJEKTAS_ID]
+  FROM [AdventureWorksDW2019].[dbo].[DARBUOTOJAS]
